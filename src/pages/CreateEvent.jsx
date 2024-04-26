@@ -7,11 +7,11 @@ const CreateEvent = () => {
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
   const [form, setForm] = useState({
-    image: "",
     title: "",
     date: "",
     time: "",
     location: "",
+    image: "",
     details: "",
   });
 
